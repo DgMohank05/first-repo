@@ -55,7 +55,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "DelimitedText1",
+						"referenceName": "calllogs1",
 						"type": "DatasetReference"
 					}
 				]
