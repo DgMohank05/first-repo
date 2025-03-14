@@ -114,7 +114,7 @@
 				"schema": [],
 				"typeProperties": {
 					"schema": "dbo",
-					"table": "CallLogs"
+					"table": "Call_Center_Data"
 				}
 			},
 			"dependsOn": [
