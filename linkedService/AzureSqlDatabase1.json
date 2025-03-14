@@ -6,7 +6,7 @@
 		"typeProperties": {
 			"server": "callcenterserver1.database.windows.net",
 			"database": "CallCenterDB",
-			"encrypt": "optional",
+			"encrypt": "mandatory",
 			"trustServerCertificate": false,
 			"authenticationType": "SystemAssignedManagedIdentity"
 		}
