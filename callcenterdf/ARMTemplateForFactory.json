@@ -325,7 +325,7 @@
 				"schema": [],
 				"typeProperties": {
 					"schema": "dbo",
-					"table": "calllogs"
+					"table": "CallLogs"
 				}
 			},
 			"dependsOn": [
