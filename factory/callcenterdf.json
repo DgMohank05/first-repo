@@ -1,0 +1,9 @@
+{
+	"name": "callcenterdf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "10a42338-ecf4-41fa-9137-c2d90b301832",
+		"tenantId": "808cc83e-a546-47e7-a03f-73a1ebba24f3"
+	}
+}

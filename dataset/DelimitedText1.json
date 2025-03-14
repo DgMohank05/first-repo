@@ -1,0 +1,60 @@
+{
+	"name": "DelimitedText1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "call-logs"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Index",
+				"type": "String"
+			},
+			{
+				"name": "Incoming Calls",
+				"type": "String"
+			},
+			{
+				"name": "Answered Calls",
+				"type": "String"
+			},
+			{
+				"name": "Answer Rate",
+				"type": "String"
+			},
+			{
+				"name": "Abandoned Calls",
+				"type": "String"
+			},
+			{
+				"name": "Answer Speed (AVG)",
+				"type": "String"
+			},
+			{
+				"name": "Talk Duration (AVG)",
+				"type": "String"
+			},
+			{
+				"name": "Waiting Time (AVG)",
+				"type": "String"
+			},
+			{
+				"name": "Service Level (20 Seconds)",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
