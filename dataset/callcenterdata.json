@@ -1,0 +1,60 @@
+{
+	"name": "callcenterdata",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Call Center Data.csv",
+				"container": "callcenterdata"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "ID",
+				"type": "String"
+			},
+			{
+				"name": "Incoming Calls",
+				"type": "String"
+			},
+			{
+				"name": "Answered Calls",
+				"type": "String"
+			},
+			{
+				"name": "Answer Rate",
+				"type": "String"
+			},
+			{
+				"name": "Abandoned Calls",
+				"type": "String"
+			},
+			{
+				"name": "Answer Speed (AVG)",
+				"type": "String"
+			},
+			{
+				"name": "Talk Duration (AVG)",
+				"type": "String"
+			},
+			{
+				"name": "Waiting Time (AVG)",
+				"type": "String"
+			},
+			{
+				"name": "Service Level (20 Seconds)",
+				"type": "String"
+			}
+		]
+	}
+}
