@@ -47,7 +47,7 @@
 				"typeProperties": {
 					"server": "[parameters('AzureSqlDatabase1_properties_typeProperties_server')]",
 					"database": "[parameters('AzureSqlDatabase1_properties_typeProperties_database')]",
-					"encrypt": "mandatory",
+					"encrypt": "optional",
 					"trustServerCertificate": false,
 					"authenticationType": "SystemAssignedManagedIdentity"
 				}
@@ -222,8 +222,8 @@
 				"type": "AzureSqlTable",
 				"schema": [],
 				"typeProperties": {
-					"schema": "callcenter",
-					"table": "logs"
+					"schema": "dbo",
+					"table": "calllogs"
 				}
 			},
 			"dependsOn": [
